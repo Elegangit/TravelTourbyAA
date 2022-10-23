@@ -1,0 +1,60 @@
+h1 {
+  text-align: center;
+  font-weight: 900;
+  margin: 0;
+  font-size: 34px;
+  line-height: 48px;
+}
+
+h1 h2,
+h3 {
+  color: #231d3c;
+}
+    p {color:black; text-decoration:bold;}
+
+video {
+        width: 500px;
+        height: 300px;
+        text-align: center;
+        margin: 0 auto;
+        border-radius: 50%;
+        border: transparent;
+        position: center;
+        text-align: center;
+      }
+img {  width: 500px;
+        height: 400px;}
+
+video-grid-2-columns {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+
+video-grid-3-columns {
+  width: 100%;
+  display: grid;
+  margin-top: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+@media (max-width: 900px) {
+  .video-grid-2-columns,
+  .video-grid-3-columns {
+    grid-template-columns: 1fr;
+  }
+
+      .container {
+    max-width: 600px;
+    margin: 60px auto;
+    padding: 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    background: linear-gradient(109.6deg, rgb(253, 140, 117) 19.9%, rgb(225, 252, 117) 90.7%);
+  }
+
+body {
+    background: linear-gradient(87.6deg, rgb(241, 16, 48) 1.7%, rgb(242, 171, 33) 13.3%, rgb(226, 242, 33) 24.5%, rgb(12, 207, 22) 34.8%, rgb(75, 205, 200) 47.2%, rgb(8, 39, 211) 58.9%, rgb(150, 101, 229) 67.6%, rgb(80, 6, 198) 78.1%, rgb(246, 98, 248) 89.2%, rgb(248, 98, 181) 103.3%, rgb(228, 129, 144) 113.9%);}
+    
