@@ -14,11 +14,22 @@
     <title>🌏 World Tour, Travel, Trips and More 🌏</title>
   </head>
   <body>
+    <style> body { 
+  background: url("https://media.gettyimages.com/photos/the-famous-cap-spartel-lighthouse-sits-on-the-northwest-tip-of-africa-picture-id142098188?s=612x612") position="top no-repeat", url("https://media.gettyimages.com/photos/chefchaouen-picture-id815723604?s=612x612") position="center no-repeat", url("https://media.gettyimages.com/photos/peon-de-ifachautonomous-community-of-valencia-spain-picture-id1089093152?s=612x612") position="center-bottom no repeat", url("https://media.gettyimages.com/photos/view-from-space-of-morocco-and-spain-picture-id181828160?s=612x612") position="bottom no-repeat";
+  background-size: cover;
+  height: 500px;
+  width:100%;
+  position: relative;
+  margin: 0 auto;
+  font-family: "Poppins", sans-serif;
+}
+</style>
    <noscript>
       You need to enable JavaScript to run this app.
     </noscript>
-    <header>
-    <div class="background-image1">
+    <header class="hero-image">
+      <section class="grid grid-2-columns">
+    <div class="background-image1" class="hero-image">
     <h1>✈️ Travel Places to Definitely Visit ⛴️</h1>
     <div class="container">
     <h2> My Global Clock </h2>
@@ -31,8 +42,9 @@
     <br />
     </div>
     </div>
+    </section>
     </header>
-     <main>
+     <main class="hero-image">
        <h3> Morocco ✈️🏝️</h3>
         <section class="video-grid-6-columns">
           <div class="background-image2" id="#myDIV">
@@ -76,7 +88,7 @@
     </div>
   </div>
               </div>
-
+              <section class="grid grid-2-columns">
               <div class="card-body">
                 <h4> Maps </h4>
                 <p> Here are maps to Morocco and Spain cities </p>
@@ -150,8 +162,9 @@
             </div>
           </div>
         </section>
+        </section>
       </main>
-      <footer>
+      <footer class="hero-image">
         <section class="grid grid-3-columns-with-first-narrow">
           <div class="background-image4">
             <h3>More about both Countries</h3>
@@ -181,15 +194,15 @@
           </div>
           <div>
             <p> Thanks for watching. Hope you can benefit from the Weather, Clock and Dictionary apps at the <a href="index.html"> Top of this page </a> when you travel. </p>
-    <footer>
+    
       This project was coded by
       <a href="https://aniqa-portfolio-shecodes-plus.netlify.app/"
         >Aniqa Afzal
       </a> on 10/22/22 with<a href="https://www.shecodes.io/">SheCodes,</a> is open sourced on <a href="https://github.com/Elegangit/TravelTourbyAA">GitHub</a> and hosted on <a href="https://www.netlify.com/">Netlify.</a> You may contact me via my LinkedIn or email with questions or feedback. Thanks.</footer>
      <p> Translate this Page </p>
         <div id="google_translate_element"><a src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"> ✒️ </a></div> 
-    <center class="center">
-      <video
+    <center class="center" class="hero-image">
+      <video class="hero-image"
         controls=""
         controlslist="nodownload"
         muted="1"
@@ -210,20 +223,31 @@
             
           </div>
         </section>
-      </footer>
     </div>
 
 <style> 
 body {
-  font-family: "Poppins", sans-serif;
-  background: url("https://media.gettyimages.com/photos/the-famous-cap-spartel-lighthouse-sits-on-the-northwest-tip-of-africa-picture-id142098188?s=612x612") top no-repeat, url("https://media.gettyimages.com/photos/chefchaouen-picture-id815723604?s=612x612") center no-repeat, url("https://media.gettyimages.com/photos/peon-de-ifachautonomous-community-of-valencia-spain-picture-id1089093152?s=612x612") center-bottom no repeat, url("https://media.gettyimages.com/photos/view-from-space-of-morocco-and-spain-picture-id181828160?s=612x612") bottom no-repeat;
+  background: url("https://media.gettyimages.com/photos/the-famous-cap-spartel-lighthouse-sits-on-the-northwest-tip-of-africa-picture-id142098188?s=612x612") position="top no-repeat", url("https://media.gettyimages.com/photos/chefchaouen-picture-id815723604?s=612x612") position="center no-repeat", url("https://media.gettyimages.com/photos/peon-de-ifachautonomous-community-of-valencia-spain-picture-id1089093152?s=612x612") position="center-bottom no repeat", url("https://media.gettyimages.com/photos/view-from-space-of-morocco-and-spain-picture-id181828160?s=612x612") position="bottom no-repeat";
   background-size: cover;
   height: 500px;
   width:100%;
   position: relative;
-  margin: 0 auto;}
+  margin: 0 auto;
+  font-family: "Poppins", sans-serif;
+}
 
-  @keyframes hero-image {
+  hero-image {   background: url("https://media.gettyimages.com/photos/the-famous-cap-spartel-lighthouse-sits-on-the-northwest-tip-of-africa-picture-id142098188?s=612x612") position="top no-repeat", url("https://media.gettyimages.com/photos/chefchaouen-picture-id815723604?s=612x612") position="center no-repeat", url("https://media.gettyimages.com/photos/peon-de-ifachautonomous-community-of-valencia-spain-picture-id1089093152?s=612x612") position="center-bottom no repeat", url("https://media.gettyimages.com/photos/view-from-space-of-morocco-and-spain-picture-id181828160?s=612x612") position="bottom no-repeat";
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  height: 500px;
+  width:100%;
+  position: relative;
+  margin: 0 auto;
+ height: 500px;
+  position: relative;
+  opacity: 0.3;
+}
   background-image1{ background-image:url("https://media.gettyimages.com/photos/the-famous-cap-spartel-lighthouse-sits-on-the-northwest-tip-of-africa-picture-id142098188?s=612x612");
   background-size: cover;
   background-repeat: no-repeat;
@@ -262,7 +286,7 @@ body {
   height: 500px;
   position: relative;
   opacity: 0.3;
-}}
+}
   
    @keyframes mymove {
   from {background-image2: url("https://media.gettyimages.com/photos/chefchaouen-picture-id815723604?s=612x612");
